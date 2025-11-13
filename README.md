@@ -16,8 +16,11 @@ A modern Flutter chat application with real-time messaging and user authenticati
 
 ## 🖼️ Screenshots
 
-![Welcome Screen](images/screenshot/welcome_screen.png)  
-![Login Screen](images/screenshot/login_screen.png)  
-![Sign Up Screen](images/screenshot/sign_up_screen.png)  
-![List User Screen](images/screenshot/list_user.png)  
-![Chat Screen](images/screenshot/chat_screen.png)
+<p align="center">
+  <img src="images/screenshot/welcome_screen.png" alt="Welcome Screen" width="250">
+  <img src="images/screenshot/login_screen.png" alt="Login Screen" width="250">
+  <img src="images/screenshot/sign_up_screen.png" alt="Sign Up Screen" width="250">
+  <img src="images/screenshot/list_user.png" alt="List User Screen" width="250">
+  <img src="images/screenshot/chat_screen.png" alt="Chat Screen" width="250">
+</p>
+
