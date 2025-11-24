@@ -40,21 +40,21 @@ If the app is open, you still get a local notification inside the app.
 You can download the APK here:
 
 👉 **Download APK:**  
-🔗 `YOUR_APK_DRIVE_LINK_HERE`
+🔗 [APK Download](https://drive.google.com/file/d/1BksWAYMW7EFvrQ_v0v7vqpWEUJYZgjc7/view?usp=sharing)
 
 ---
 
 ## 🖼️ Screenshots
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/screenshot/welcome_screen.png" alt="Welcome Screen" width="200" style="border-radius:8px;"/>
+  <img src="assets/screenshot/login_screen.png" alt="Login Screen" width="200" style="border-radius:8px;"/>
+  <img src="assets/screenshot/sign_up_screen.png" alt="Sign Up Screen" width="200" style="border-radius:8px;"/>
+  <img src="assets/screenshot/list_user.png" alt="User List" width="200" style="border-radius:8px;"/>
+  <img src="assets/screenshot/chat_screen.png" alt="Chat Screen" width="200" style="border-radius:8px;"/>
+  <img src="assets/screenshot/notification.png" alt="FCM Notification" width="200" style="border-radius:8px;"/>
+  <img src="assets/screenshot/notification_local.png" alt="Local Notification" width="200" style="border-radius:8px;"/>
 
-![Welcome Screen](assets/screenshot/welcome_screen.png)  
-![Login Screen](assets/screenshot/login_screen.png)  
-![Sign Up Screen](assets/screenshot/sign_up_screen.png)  
-![User List](assets/screenshot/list_user.png)  
-![Chat Screen](assets/screenshot/chat_screen.png)  
-![FCM Notification](assets/screenshot/notification.png)  
-![Local Notification](assets/screenshot/notification_local.png)
-
----
+</div>
 
 ## 📩 Contact
 
