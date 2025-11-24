@@ -1,6 +1,6 @@
-import 'package:flutter_chat_app/screens/login.dart';
-import 'package:flutter_chat_app/screens/sign_up.dart';
-import 'package:flutter_chat_app/widgets/custom_button.dart';
+import 'package:chat_app/screens/login.dart';
+import 'package:chat_app/screens/sign_up.dart';
+import 'package:chat_app/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -24,7 +24,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           children: [
             Column(
               children: [
-                SizedBox(height: 100, child: Image.asset('images/logo.jpg')),
+                SizedBox(height: 100, child: Image.asset('assets/logo.jpg')),
                 Text(
                   'let\'s Chat',
                   style: TextStyle(fontSize: 40, fontWeight: FontWeight.w900),

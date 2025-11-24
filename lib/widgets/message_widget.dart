@@ -71,7 +71,6 @@ class MessageStreamBuilder extends StatelessWidget {
     );
   }
 }
-
 class MessageWidget extends StatelessWidget {
   final String senderEmail;
   final String msgtext;
@@ -90,22 +89,27 @@ class MessageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: isSenderMe
-          ? CrossAxisAlignment.start
-          : CrossAxisAlignment.end,
+          ? CrossAxisAlignment.end     // ✔️ رسائلك على اليمين
+          : CrossAxisAlignment.start,  // ✔️ رسائل الآخر على اليسار
       children: [
-        Text(senderEmail, style: TextStyle(fontSize: 12, color: Colors.grey)),
+        Text(
+          senderEmail,
+          style: TextStyle(fontSize: 12, color: Colors.grey),
+        ),
         SizedBox(height: 2),
         Container(
           constraints: BoxConstraints(maxWidth: 280),
           padding: EdgeInsets.symmetric(vertical: 10, horizontal: 14),
           margin: EdgeInsets.symmetric(vertical: 4),
           decoration: BoxDecoration(
-            color: isSenderMe ? Colors.blue[700]! : Colors.yellow[800]!,
+            color: isSenderMe
+                ? Colors.yellow[800]!   // ✔️ لون رسائلك
+                : Colors.blue[700]!,    // ✔️ لون رسائل الآخر
             borderRadius: BorderRadius.only(
-              topLeft: isSenderMe ? Radius.circular(12) : Radius.zero,
-              topRight: isSenderMe ? Radius.zero : Radius.circular(12),
-              bottomLeft: Radius.circular(12),
-              bottomRight: Radius.circular(12),
+              topLeft: Radius.circular(12),
+              topRight: Radius.circular(12),
+              bottomLeft: isSenderMe ? Radius.circular(12) : Radius.zero,
+              bottomRight: isSenderMe ? Radius.zero : Radius.circular(12),
             ),
           ),
           child: Column(
